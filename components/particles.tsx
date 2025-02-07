@@ -98,6 +98,7 @@ export const Particles: React.FC<ParticlesProps> = ({
   const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
   // @ts-ignore
   const rafID = useRef<number | null>(null);
+  // @ts-ignore
   const resizeTimeout = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
