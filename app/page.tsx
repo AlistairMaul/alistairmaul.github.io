@@ -8,8 +8,6 @@ import { ScrollProgress } from "@/components/scroll-progress";
 import { Particles } from "@/components/particles";
 import { MagicCard } from "@/components/magic-card";
 import { IconCloud } from "@/components/icon-cloud";
-import sim from '../public/sim.png'
-import stock from '../public/stock.png'
 import Head from 'next/head';
 import {
   AnimatedSpan,
@@ -129,7 +127,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text"  href="https://github.com/AlistairMaul/ContagionSim">
                 Contagion Simulation
-                <img src={sim} alt="" width="150" height="150"/>
+                <img src={'../public/sim.png'} alt="" width="150" height="150"/>
               </a>
             </MagicCard>
             
@@ -146,7 +144,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/stocks">
                 Stock Game
-                <img src={stock} width="150" height="150" alt="" />
+                <img src={'../public/sim.png'} width="150" height="150" alt="" />
               </a>
             </MagicCard>
             
