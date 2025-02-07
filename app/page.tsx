@@ -128,7 +128,7 @@ export default function Home() {
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-4xl shadow-2xl"
               gradientColor={"dark" === "dark" ? "#262626" : "#D9D9D955"}
             >
-              <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/ContagionSim">
+              <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/stocks">
                 Stock Game
               </a>
             </MagicCard>
