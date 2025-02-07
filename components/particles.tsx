@@ -96,6 +96,7 @@ export const Particles: React.FC<ParticlesProps> = ({
   const mouse = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const canvasSize = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
   const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
+  // @ts-ignore
   const rafID = useRef<number | null>(null);
   const resizeTimeout = useRef<NodeJS.Timeout>();
 
