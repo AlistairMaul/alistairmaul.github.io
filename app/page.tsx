@@ -35,13 +35,20 @@ export default function Home() {
     (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
   );
   return (
+    
     <div className="bg-black">
+      <a className="absolute top-2 right-3 bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
+          Website Best Viewed On Desktop Chrome
+        </a>
       <ScrollProgress className="" />
       <div>
-        <a className="p-60 justify-center items-center object-center flex text-9xl bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent">
+        <div className="p-60 justify-center items-center object-center flex text-9xl bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent">
           Hello, I'm Alistair
-          
-        </a>
+          <a className="text-3xl bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
+            Maul
+          </a>
+        </div>
+        
       </div>
       <FlickeringGrid
         className="absolute inset-0 z-0 size-full"
@@ -116,6 +123,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text"  href="https://github.com/AlistairMaul/stocks">
                 Contagion Simulation
+                <img src="https://private-user-images.githubusercontent.com/119766941/411024535-cd8a9b57-6ada-4308-b74b-aa2da3dec5d1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg5NjY5NDksIm5iZiI6MTczODk2NjY0OSwicGF0aCI6Ii8xMTk3NjY5NDEvNDExMDI0NTM1LWNkOGE5YjU3LTZhZGEtNDMwOC1iNzRiLWFhMmRhM2RlYzVkMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIwN1QyMjE3MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNDNjMzhhYzViYTRjY2RiN2U3YTQ2NmRlZTY5MzcyNzAzNTFjNzhmNTgyYmE5MGU2MTM2YzA3YTc2Mzk0ZTM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.dHSqSVcb8i_VpKZcAR2PBLo7VpSFRim04CgtFTw_oyE" alt="" width="150" height="150"/>
               </a>
             </MagicCard>
             
@@ -132,6 +140,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/stocks">
                 Stock Game
+                <img src="https://private-user-images.githubusercontent.com/119766941/411024392-1d15e2e1-db67-4e1c-87d1-4875de051ad5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg5NjY5NDksIm5iZiI6MTczODk2NjY0OSwicGF0aCI6Ii8xMTk3NjY5NDEvNDExMDI0MzkyLTFkMTVlMmUxLWRiNjctNGUxYy04N2QxLTQ4NzVkZTA1MWFkNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIwN1QyMjE3MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmVlMTY5ZDhjMGQwODQ0YmQ4YWYzNzRkNTc1MGMzYTNmNzc4ZGJmNzU0MGM5NWZhZTM0MmRkNjM1ZmZmMjJkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jgEmpwCCiHHOGcUbAlRffrtIZXdvAvjBTihIul0AJ4M" width="150" height="150" alt="" />
               </a>
             </MagicCard>
             
