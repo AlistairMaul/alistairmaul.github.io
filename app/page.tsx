@@ -8,6 +8,8 @@ import { ScrollProgress } from "@/components/scroll-progress";
 import { Particles } from "@/components/particles";
 import { MagicCard } from "@/components/magic-card";
 import { IconCloud } from "@/components/icon-cloud";
+import sim from '../public/sim.png'
+import stock from '../public/stock.png'
 import {
   AnimatedSpan,
   Terminal,
@@ -123,7 +125,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text"  href="https://github.com/AlistairMaul/ContagionSim">
                 Contagion Simulation
-                <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/119766941/411024535-cd8a9b57-6ada-4308-b74b-aa2da3dec5d1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250207T224836Z&X-Amz-Expires=300&X-Amz-Signature=386287d6629236487d4f3625b5089c00fd838a68be0b88fb38e1e171861e4f6c&X-Amz-SignedHeaders=host" alt="" width="150" height="150"/>
+                <img src={sim} alt="" width="150" height="150"/>
               </a>
             </MagicCard>
             
@@ -140,7 +142,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/stocks">
                 Stock Game
-                <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/119766941/411024392-1d15e2e1-db67-4e1c-87d1-4875de051ad5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250207T224858Z&X-Amz-Expires=300&X-Amz-Signature=68ae061703dccb3140a2794cae3ea595edc6dba8d5f4aa144ecac608c96a6186&X-Amz-SignedHeaders=host" width="150" height="150" alt="" />
+                <img src={stock} width="150" height="150" alt="" />
               </a>
             </MagicCard>
             
