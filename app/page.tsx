@@ -108,13 +108,13 @@ export default function Home() {
       <div className="flex p-3 justify-center">
         <div className=" relative flex size-full max-w-lg items-center justify-center overflow-hidden  bg-background">
       
-          <div className="p-5 flex h-[500px] w-full gap-4 lg:h-[250px]" href="https://github.com/AlistairMaul/stocks">
+          <div className="p-5 flex h-[500px] w-full gap-4 lg:h-[250px]">
             <MagicCard
               
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-4xl shadow-2xl"
               gradientColor={"dark" === "dark" ? "#262626" : "#D9D9D955"}
             >
-              <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text">
+              <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text"  href="https://github.com/AlistairMaul/stocks">
                 Contagion Simulation
               </a>
             </MagicCard>
@@ -124,13 +124,13 @@ export default function Home() {
         </div>
         <div className=" relative flex size-full max-w-lg items-center justify-center overflow-hidden  bg-background">
       
-          <div className="p-5 flex h-[500px] w-full gap-4 lg:h-[250px]" href="https://github.com/AlistairMaul/stocks">
+          <div className="p-5 flex h-[500px] w-full gap-4 lg:h-[250px]">
             <MagicCard
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-4xl shadow-2xl"
               
               gradientColor={"dark" === "dark" ? "#262626" : "#D9D9D955"}
             >
-              <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text">
+              <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/stocks">
                 Stock Game
               </a>
             </MagicCard>
