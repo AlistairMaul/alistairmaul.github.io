@@ -38,14 +38,15 @@ export default function Home() {
   return (
     
     <div className="bg-black">
+      <Head>
+          <title>Alistair Maul</title>
+      </Head>
       <a className="absolute top-2 right-3 bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
           Website Best Viewed On Desktop Chrome
         </a>
       <ScrollProgress className="" />
       <div>
-        <Head>
-          <title>Alistair Maul</title>
-        </Head>
+        
         <div className="p-60 justify-center items-center object-center flex text-9xl bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent">
           Hello, I'm Alistair
           <a className="text-3xl bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
@@ -127,7 +128,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text"  href="https://github.com/AlistairMaul/ContagionSim">
                 Contagion Simulation
-                <img src={'../public/sim.png'} alt="" width="150" height="150"/>
+                <img src='https://alistairmaul.github.io/sim.png' alt="" width="150" height="150"/>
               </a>
             </MagicCard>
             
@@ -144,7 +145,7 @@ export default function Home() {
             >
               <a className="bg-gradient-to-r from-purple-900 to-blue-700 text-transparent bg-clip-text" href="https://github.com/AlistairMaul/stocks">
                 Stock Game
-                <img src={'../public/stock.png'} width="150" height="150" alt="" />
+                <img src='https://alistairmaul.github.io/stock.png' width="150" height="150" alt="" />
               </a>
             </MagicCard>
             
