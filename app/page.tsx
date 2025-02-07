@@ -10,6 +10,7 @@ import { MagicCard } from "@/components/magic-card";
 import { IconCloud } from "@/components/icon-cloud";
 import sim from '../public/sim.png'
 import stock from '../public/stock.png'
+import Head from 'next/head';
 import {
   AnimatedSpan,
   Terminal,
@@ -44,6 +45,9 @@ export default function Home() {
         </a>
       <ScrollProgress className="" />
       <div>
+        <Head>
+          <title>Alistair Maul</title>
+        </Head>
         <div className="p-60 justify-center items-center object-center flex text-9xl bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent">
           Hello, I'm Alistair
           <a className="text-3xl bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
