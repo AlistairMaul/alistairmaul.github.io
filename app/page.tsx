@@ -49,9 +49,6 @@ export default function Home() {
         
         <div className="p-60 justify-center items-center object-center flex text-9xl bg-gradient-to-r from-purple-700 to-blue-700 bg-clip-text text-transparent">
           Hello, I'm Alistair
-          <a className="text-3xl bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
-            Maul
-          </a>
         </div>
         
       </div>
