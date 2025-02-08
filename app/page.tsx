@@ -31,6 +31,10 @@ const slugs = [
   "c#",
   "python",
 ];
+export const metadata = {
+  title: "My new title",
+  description: "My description",
+}
 export default function Home() {
   const images = slugs.map(
     (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
@@ -38,9 +42,6 @@ export default function Home() {
   return (
     
     <div className="bg-black">
-      <Head>
-          <title>Alistair Maul</title>
-      </Head>
       <a className="absolute top-2 right-3 bg-gradient-to-r from-purple-800 to-blue-700 bg-clip-text text-transparent">
           Website Best Viewed On Desktop Chrome
         </a>
