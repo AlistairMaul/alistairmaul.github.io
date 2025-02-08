@@ -1,4 +1,3 @@
-"use client";
 
 import { BorderBeam } from "@/components/border-beam";
 import { FlickeringGrid } from "@/components/flickering-grid";
@@ -31,9 +30,10 @@ const slugs = [
   "c#",
   "python",
 ];
-export const metadata = {
-  title: "My new title",
-  description: "My description",
+export async function generateMetadata({ params }: { params: { id: string } }) {
+  return {
+    title: `Alistair Maul`,
+  };
 }
 export default function Home() {
   const images = slugs.map(
