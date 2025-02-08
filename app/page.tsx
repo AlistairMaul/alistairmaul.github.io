@@ -30,6 +30,7 @@ const slugs = [
   "c#",
   "python",
 ];
+// @type ignore
 export async function generateMetadata({ params }: { params: { id: string } }) {
   return {
     title: `Alistair Maul`,
