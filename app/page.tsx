@@ -1,5 +1,6 @@
 
 import { BorderBeam } from "@/components/border-beam";
+import './globals.css';
 import { FlickeringGrid } from "@/components/flickering-grid";
 import { TextReveal } from "@/components/text-reveal";
 import { VelocityScroll } from "@/components/scroll-based-velocity";
@@ -31,11 +32,9 @@ const slugs = [
   "python",
 ];
 // @type ignore
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  return {
-    title: `Alistair Maul`,
-  };
-}
+export const metadata = {
+      title: 'Alistair Maul',
+    };
 export default function Home() {
   const images = slugs.map(
     (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
